@@ -286,7 +286,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 nav-blur border-b border-white/5">
   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
     <a href="#" class="flex items-center gap-3 group">
-      <div class="w-10 h-10 rounded-xl bg-[var(--accent)] flex items-center justify-center font-display font-bold text-black text-xl group-hover:rotate-12 transition-transform">B</div>
+      <img src="favicon.svg" alt="" class="w-10 h-10 group-hover:rotate-12 transition-transform">
       <span class="font-display font-bold text-lg md:text-xl">BuyMeWebsite<span class="text-[var(--accent)]">.</span>com</span>
     </a>
     <div class="hidden md:flex items-center gap-8 text-sm">
@@ -316,22 +316,12 @@
 
 <!-- HERO -->
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-  <!-- Loop video bg -->
-  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover" style="z-index:0" id="heroVideo">
-    <source src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-city-at-night-11748-large.mp4" type="video/mp4">
-    <source src="https://assets.mixkit.co/videos/preview/mixkit-stars-in-space-1610-large.mp4" type="video/mp4">
-  </video>
   <div class="absolute inset-0 video-overlay" style="z-index:1"></div>
   <div class="absolute inset-0 grid-bg opacity-40" style="z-index:1"></div>
 
   <!-- Floating shapes -->
 
   <div class="relative z-10 max-w-7xl mx-auto px-6 pt-36 pb-20 text-center">
-    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 mb-10 reveal">
-      <span class="pulse-dot"></span>
-      <span class="text-xs md:text-sm tracking-wide">Websites from ₹5,000 · Domain + Hosting Included · 10% Advance Only</span>
-    </div>
-
     <h1 class="font-display font-extrabold text-5xl md:text-7xl lg:text-8xl leading-[0.95] mb-6 reveal">
       Premium Sites.<br>
       <span class="gradient-text">Half the Market.</span>
@@ -412,14 +402,9 @@
   <div class="blob blob-2"></div>
   <div class="max-w-7xl mx-auto relative">
     <div class="text-center mb-16 reveal">
-      <span class="tag mb-4"><span class="pulse-dot"></span> Pricing</span>
+      <span class="tag mb-4"><i class="fas fa-tags text-[var(--accent)]"></i> Pricing</span>
       <h2 class="font-display text-5xl md:text-7xl font-bold mt-4 mb-4">Pay Less. <span class="gradient-text">Get More.</span></h2>
-      <p class="text-white/60 max-w-2xl mx-auto mb-6">Transparent pricing. All packages include domain, hosting, SSL, and 60 days of support. No hidden charges, ever.</p>
-      <div class="flex flex-wrap items-center justify-center gap-3">
-        <span class="tag"><i class="fas fa-check text-[var(--accent)]"></i> True Pricing</span>
-        <span class="tag"><i class="fas fa-check text-[var(--accent)]"></i> No Hidden Costs</span>
-        <span class="tag"><i class="fas fa-check text-[var(--accent)]"></i> No Catch</span>
-      </div>
+      <p class="text-white/60 max-w-2xl mx-auto">Transparent pricing. All packages include domain, hosting, SSL, and 60 days of support. No hidden charges, ever.</p>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -799,9 +784,7 @@
             <h3 class="text-xl font-bold mb-3">Aditya Gupta</h3>
             <p class="text-white/70 text-sm mb-4">Full-stack developer leading architecture and product. Builds fast, scalable, beautiful web experiences.</p>
             <div class="flex gap-3">
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-github"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/dev-aditya-gupta/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
@@ -821,8 +804,6 @@
             <p class="text-white/70 text-sm mb-4">IIT Roorkee alumnus. Drives technical strategy, complex systems, and product engineering across all enterprise projects.</p>
             <div class="flex gap-3">
               <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-github"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-x-twitter"></i></a>
             </div>
           </div>
         </div>
@@ -834,16 +815,14 @@
           <div class="team-face glass border border-[var(--border)] p-8 flex flex-col items-center justify-center text-center">
             <img src="images/Himanshu.jpeg" alt="Himanshu Tiwari" class="w-24 h-24 rounded-full object-cover border border-[var(--accent)]/40 mb-4">
             <h3 class="text-xl font-bold">Himanshu Tiwari</h3>
-            <p class="text-[var(--accent)] text-sm mt-1">Lead Designer</p>
+            <p class="text-[var(--accent)] text-sm mt-1">Lead Designer & Co-Founder</p>
             <p class="text-white/50 text-xs mt-3">UI / UX · Branding</p>
           </div>
           <div class="team-face team-back glass border border-[var(--accent)] p-8 flex flex-col items-center justify-center text-center">
             <h3 class="text-xl font-bold mb-3">Himanshu Tiwari</h3>
             <p class="text-white/70 text-sm mb-4">Designs interfaces people love to use. Owns visual identity, motion design, and user experience for every project.</p>
             <div class="flex gap-3">
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-github"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/himanshu-tiwari-465a82201/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
@@ -863,8 +842,25 @@
             <p class="text-white/70 text-sm mb-4">Senior Manager leading marketing strategy and outreach, connecting our work with the clients who need it most.</p>
             <div class="flex gap-3">
               <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-github"></i></a>
-              <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kushagra -->
+      <div class="team-card reveal">
+        <div class="team-card-inner">
+          <div class="team-face glass border border-[var(--border)] p-8 flex flex-col items-center justify-center text-center">
+            <img src="images/Kushagra.jpeg" alt="Kushagra Gupta" class="w-24 h-24 rounded-full object-cover border border-[var(--accent)]/40 mb-4">
+            <h3 class="text-xl font-bold">Kushagra Gupta</h3>
+            <p class="text-[var(--accent)] text-sm mt-1">DevOps & Infrastructure Lead</p>
+            <p class="text-white/50 text-xs mt-3">CI/CD · Cloud · Reliability</p>
+          </div>
+          <div class="team-face team-back glass border border-[var(--accent)] p-8 flex flex-col items-center justify-center text-center">
+            <h3 class="text-xl font-bold mb-3">Kushagra Gupta</h3>
+            <p class="text-white/70 text-sm mb-4">Owns deployment pipelines, cloud infrastructure, and uptime, keeping every client's site fast, secure, and always online.</p>
+            <div class="flex gap-3">
+              <a href="https://www.linkedin.com/in/-kushagra-gupta-/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
@@ -969,7 +965,7 @@
     <div class="grid md:grid-cols-4 gap-10 mb-12">
       <div class="md:col-span-2">
         <a href="#" class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 rounded-xl bg-[var(--accent)] flex items-center justify-center font-display font-bold text-black text-xl">B</div>
+          <img src="favicon.svg" alt="" class="w-10 h-10">
           <span class="font-display font-bold text-xl">BuyMeWebsite<span class="text-[var(--accent)]">.</span>com</span>
         </a>
         <p class="text-white/60 text-sm max-w-md">Premium websites at half the market price. Domain, hosting, design, and development, all included. Built by IITians and senior developers.</p>
@@ -998,7 +994,6 @@
     <p class="text-white/30 text-xs text-center md:text-left border-t border-white/5 pt-8 mb-8">Affordable website design & development services, website banwao from ₹5,000 with domain and hosting included, for schools, colleges, companies, restaurants, doctors, lawyers, real estate agents and NGOs across India.</p>
     <div class="pt-0 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/40">
       <p>© 2026 BuyMeWebsite.com · All rights reserved.</p>
-      <p>Made with <i class="fas fa-heart text-[var(--accent-2)]"></i> in India</p>
     </div>
   </div>
 </footer>
